@@ -1,15 +1,18 @@
 .container {
-    width: 500px;
-    height: 600px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-output {
-    width: 50px;
-    height: 25p;
+.display {
     border-color: black;
+    background-color: aliceblue;
+    color: white;
+    display: flex;
 }
+
 .rows {
     display: flex;
-    flex-direction: row;
 }
 
 button {
