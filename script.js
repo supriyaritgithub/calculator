@@ -7,3 +7,7 @@ function clearDisplay() {
 function appendValue(num) {
     display.value += num
 }
+
+function calculate() {
+
+}
