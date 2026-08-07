@@ -1,27 +1,33 @@
 .container {
-    background-color: transparent;
+    background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 175px;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .display {
     border-color: black;
     background-color: aliceblue;
     color: white;
     display: flex;
+    height: 50px;
 }
 
 .rows {
     display: flex;
+    gap: 10px;
 }
 
 button {
     width: 50px;
-    height: 25px;
+    height: 50px;
     display: flex;
     background-color: black;
     color: white;
     font-style: bold;
-    align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
 }
